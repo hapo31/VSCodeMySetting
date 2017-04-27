@@ -1,0 +1,60 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.detectIndentation": false,
+
+    "files.associations": {
+        "*.html": "html",
+        "*.ejs" : "html",
+        "*.c"   : "c",
+        "*.cpp" : "cpp",
+        "*.cs"  : "cs",
+        ".js"   : "javascript"
+    },
+
+    "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": -1,
+
+    "typescript.check.tscVersion": false,
+    "eslint.options": {
+     "extends": "es2015",
+     "no-var": true
+    },
+
+    "python.pythonPath": "python3",
+
+    "php.validate.executablePath": "C:/eclipse/pleiades-e4.6-php-jre_20160622/pleiades/xampp/php/php.exe",
+    "php.validate.run": "onType",
+    "git.confirmSync": false,
+
+    "python.linting.pylintArgs": [
+        "--disable=C0103",
+        "--disable=C0111",
+        "--disable=C0301",
+        "--disable=C0325",
+        "--disable=C0326"
+    ],
+    "workbench.welcome.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.dragAndDrop": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.renderLineHighlight": "gutter",
+    "files.autoGuessEncoding": true,
+    "files.defaultLanguage": "markdown"
+}
