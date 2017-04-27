@@ -26,7 +26,6 @@
 
     "python.pythonPath": "python3",
 
-    "php.validate.executablePath": "C:/eclipse/pleiades-e4.6-php-jre_20160622/pleiades/xampp/php/php.exe",
     "php.validate.run": "onType",
     "git.confirmSync": false,
 
@@ -42,7 +41,7 @@
     "editor.dragAndDrop": true,
     "files.trimTrailingWhitespace": true,
     "workbench.sideBar.location": "left",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+
     "[cpp]": {
         "editor.quickSuggestions": false
     },
